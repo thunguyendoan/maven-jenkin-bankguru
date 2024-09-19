@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BankGuru" >
+
+    <test name="Run on Chrome" preserve-order="true">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.bankguru.page.New_Account_Login"></class>
+            <class name="com.bankguru.page.Home_Page_Delete_Customer"></class>
+            <class name="com.bankguru.page.Home_Page_Mini_Statement"></class>
+            <class name="com.bankguru.page.Home_Page_Customised_Statement"></class>
+            <class name="com.bankguru.page.Home_Page_Fund_Transfer"></class>
+            <class name="com.bankguru.page.Home_Page_New_Customer"></class>
+            <class name="com.bankguru.page.Home_Page_Edit_Customer"></class>
+            <class name="com.bankguru.page.Home_Page_New_Account"></class>
+            <class name="com.bankguru.page.Home_Page_Edit_Account"></class>
+            <class name="com.bankguru.page.Home_Page_Delete_Account"></class>
+            <class name="com.bankguru.page.Home_Page_Deposit"></class>
+            <class name="com.bankguru.page.Home_Page_Withdrawal"></class>
+            <class name="com.bankguru.page.Home_Page_Balance_Enquiry"></class>
+            <class name="com.bankguru.page.Home_Page_Logout"></class>
+            <class name="com.bankguru.page.Home_Page_Change_Password"></class>
+        </classes>
+    </test>
+
+</suite>
